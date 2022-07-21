@@ -4,6 +4,11 @@ body {
     font-family: roboto;
 }
 
+a {
+    text-decoration: none;
+    color:#f9faf8;
+}
+
 .logo {
     height: 100px;
     width: auto;
@@ -17,29 +22,63 @@ body {
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
+    padding: 0px 120px;
 }
 
-.section-1 {
+.section-2 {
+    padding: 0px 120px;
+}
+
+.sec-1-1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.header-left {
+.sec-1-2 {
     display: flex;
-    align-items: center;
-    gap: 16px;
-    padding-left: 16px;
+    justify-content: center;
+    gap: 24px;
+    padding: 80px 0px;
 }
 
+.header-left,
 .header-right {
     display: flex;
     align-items: center;
     gap: 16px;
-    padding: 16px;
 }
 
-a {
-    text-decoration: none;
-    color:#f9faf8;
+
+.hero-part {
+    width: 50%;
+}
+
+.img-placeholder {
+    width: 50%;
+    background-color: grey;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-main {
+    font-weight: 800;
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-sub {
+    margin: 0;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.hero-button {
+    margin-top: 8px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
 }
